@@ -1,13 +1,17 @@
 .cover__title {
+  display: inline-block;
   margin: 0 auto calc(100vw*0.036 + 4.57px);
   font-weight: 900;
   font-size: calc(100vw*0.089 + 3.43px);
   text-align: center;
+  max-width: calc(100vw*0.607 + 93.71px);
+  color: #fff;
 }
 
 @media (min-width: 768px) {
   .cover__title {
     font-size: 72px;
     margin-bottom: 32px;
+    max-width: 560px;
   }
 }

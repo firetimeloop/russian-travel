@@ -4,6 +4,8 @@
   text-align: center;
   padding: 0 16px;
   max-width: 360px;
+  color: #fff;
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {

@@ -1,6 +1,5 @@
 .lead__caption {
-  height: 14px;
-  width: 158px;
+  width: 159px;
   font-size: 10px;
   line-height: 14px;
   margin-top: 8px;
@@ -8,6 +7,7 @@
   text-transform: uppercase;
   letter-spacing: 0.12em;
   color: #fff;
+  letter-spacing: 0.15em;
 }
 
 @media (min-width: 320px) {

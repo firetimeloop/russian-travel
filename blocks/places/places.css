@@ -3,13 +3,13 @@
   flex-direction: column;
   width: 100%;
   max-width: 984px;
-  margin: calc(100vw*0.058 + 45.43px) 0;
+  margin: calc(100vw*0.058 + 45.43px) auto;
 }
 
 @media (min-width: 768px) {
   .places {
-    width: calc(100vw*160/256 + 288px);
-    margin: 90px 0;
+    width: calc(100vw*0.8125 + 96px);
+    margin: 90px auto;
   }
 }
 

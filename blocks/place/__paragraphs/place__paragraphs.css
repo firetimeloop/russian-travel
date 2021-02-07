@@ -1,0 +1,11 @@
+.place__paragraphs {
+  align-self: start;
+  width: 100%;
+}
+
+@media (min-width: 767px) {
+  .place__paragraphs {
+    width: 45vw;
+    max-width: 484px;
+  }
+}

@@ -1,12 +1,10 @@
 .lead__subtitle {
   width: 90vw;
-
   max-width: 640px;
-  max-height: 72px;
   margin: 32px auto 0;
   font-weight: normal;
   font-size: 30px;
-  line-height: 1.1;
+  line-height: 36px;
   text-align: center;
   color: #FFFFFF;
 }
@@ -15,6 +13,7 @@
   .lead__subtitle {
     font-size: calc(100vw*14/448 + 6px);
     margin-top: calc(100vw*16/448 + 4.57px);
+    line-height: calc(100vw*0.036 + 8.57px);
   }
 }
 

@@ -1,13 +1,23 @@
 .place__paragraph {
-  align-self: start;
-  margin: 0 16px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 16px;
   margin-bottom: 25px;
-  padding: 0;
+  font-size: 16px;
+  line-height: 1.63;
+  width: 100%;
 }
 
 @media (min-width: 768px) {
   .place__paragraph {
     margin: 0;
     margin-bottom: 25px;
+    padding: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place__paragraph {
+    font-size: 18px;
   }
 }

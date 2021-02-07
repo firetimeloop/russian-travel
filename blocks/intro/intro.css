@@ -1,0 +1,30 @@
+.intro {
+  margin-top: 64px;
+  margin-left: 0;
+  width: 90vw;
+  max-width: 984px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media (min-width: 320px) {
+  .intro {
+    margin-top: calc(100vw*3/56 + 46.86px);
+    width: calc(100vw*54/56 - 20.57px);
+  }
+}
+
+@media (min-width: 768px) {
+  .intro {
+    margin-top: calc(100vw/64 + 76px);
+    width: calc(100vw*13/16 + 96px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .intro {
+    margin-top: 92px;
+  }
+}

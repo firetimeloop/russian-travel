@@ -1,0 +1,21 @@
+.footer {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1184px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    width: calc(100vw*1.4 - 514px);
+  }
+}

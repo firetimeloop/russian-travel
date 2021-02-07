@@ -1,0 +1,29 @@
+.lead__caption {
+  height: 14px;
+  width: 158px;
+  font-size: 10px;
+  line-height: 14px;
+  margin-top: 8px;
+  margin-left: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #fff;
+}
+
+@media (min-width: 320px) {
+  .lead__caption {
+    margin-left: calc(100vw/56 + 10.29px);
+  }
+}
+
+@media (min-width: 768px) {
+  .lead__caption {
+    margin-left: calc(-100vw*24/256 + 96px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .lead__caption {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,15 @@
+.header__nav-element {
+  margin: 15px 18px 0 0;
+}
+
+.header__nav-element:last-of-type {
+  margin-right: 0;
+}
+
+
+@media (max-width: 320px) {
+  .header__nav-element {
+    margin-right: calc(5.625vw);
+    margin-top: calc(4.688vw);
+  }
+}

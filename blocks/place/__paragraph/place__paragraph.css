@@ -1,0 +1,13 @@
+.place__paragraph {
+  align-self: start;
+  margin: 0 16px;
+  margin-bottom: 25px;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .place__paragraph {
+    margin: 0;
+    margin-bottom: 25px;
+  }
+}

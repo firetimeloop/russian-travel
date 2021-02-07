@@ -1,0 +1,24 @@
+.lead__title {
+  width: 90vw;
+  height: 27.5vw;
+  max-width: 720px;
+  max-height: 200px;
+  margin: 0 auto;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 1.1;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+  .lead__title {
+    font-size: calc(100vw*56/448);
+  }
+}
+
+@media (max-width: 320px) {
+  .lead__title {
+    font-size: calc(12.5vw);
+  }
+}

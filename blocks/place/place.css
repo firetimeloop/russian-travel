@@ -1,0 +1,23 @@
+.place {
+  display: grid;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  grid-template-columns: 1fr;
+  row-gap: calc(100vw*0.036 + 20.57px);
+  column-gap: 32px;
+  align-items: center;
+  margin-bottom: calc(100vw*0.067 + 28.57px);
+}
+
+@media (min-width: 768px) {
+  .place {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 48px;
+    margin-bottom: 80px;
+  }
+}
+
+.place:last-of-type {
+  margin-bottom: 0;
+}

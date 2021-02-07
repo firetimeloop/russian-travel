@@ -1,0 +1,18 @@
+.footer__nav-element {
+  margin: 0 0 32px 0;
+}
+
+.footer__nav-element:last-of-type {
+  margin-bottom: 0px;
+}
+
+
+@media (min-width: 500px) {
+  .footer__nav-element {
+    margin: 0 18px 0 0;
+  }
+
+  .footer__nav-element:last-of-type {
+    margin-right: 0;
+  }
+}

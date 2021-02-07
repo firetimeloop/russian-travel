@@ -1,0 +1,22 @@
+.footer__link {
+  color: #fff;
+  font-size: 24px;
+  text-decoration-line: none;
+}
+
+.footer__link:hover {
+  opacity: .7;
+  transition: opacity 0.5s linear 0s;
+}
+
+@media (min-width: 320px) {
+  .footer__link {
+    font-size: calc(100vw*(-0.076) + 48.38px);
+  }
+}
+
+@media (min-width: 425px) {
+  .footer__link {
+    font-size: 16px;
+  }
+}

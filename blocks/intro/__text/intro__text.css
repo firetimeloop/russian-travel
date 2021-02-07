@@ -1,0 +1,26 @@
+.intro__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 690px;
+  margin-bottom: 33px;
+}
+
+@media (min-width: 320px) {
+  .intro__title {
+    width: calc(100vw*54/56 - 20.57px);
+  }
+}
+
+@media (min-width: 768px) {
+  .intro__title {
+    width: calc(-100vw*15/128 + 810px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .intro__title {
+    min-width: 690px;
+  }
+}

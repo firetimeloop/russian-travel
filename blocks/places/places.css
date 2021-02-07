@@ -1,0 +1,20 @@
+.places {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 984px;
+  margin: calc(100vw*0.058 + 45.43px) 0;
+}
+
+@media (min-width: 768px) {
+  .places {
+    width: calc(100vw*160/256 + 288px);
+    margin: 90px 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .places {
+    width: calc(100vw*56/256 + 704px);
+  }
+}

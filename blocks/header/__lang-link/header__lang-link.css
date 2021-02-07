@@ -1,0 +1,23 @@
+.header__lang-link {
+  color: #fff;
+  font-size: 24px;
+  line-height: 1.2;
+  text-decoration-line: none;
+}
+
+.header__lang-link:hover {
+  opacity: .7;
+  transition: opacity 0.5s linear 0s;
+}
+
+@media (max-width: 768px) {
+  .header__lang-link {
+    font-size: calc(100vw/74.67 + 13.71px);
+  }
+}
+
+@media (max-width: 320px) {
+  .header__lang-link {
+    font-size: calc(5.625vw);
+  }
+}

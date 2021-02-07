@@ -1,0 +1,13 @@
+.cover {
+  width: 100%;
+  max-width: 1184px;
+  height: 62.5vw;
+  max-height: 740px;
+  margin-bottom: calc(100vw*0.058 + 45.43px);
+}
+
+@media (min-width: 768px) {
+  .cover {
+    margin-bottom: 90px;
+  }
+}

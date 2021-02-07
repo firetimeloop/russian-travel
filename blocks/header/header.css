@@ -1,0 +1,16 @@
+.header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 13.125vw;
+  max-height: 52px;
+  width: 91.5vw;
+  margin: calc(100vw/37.3 + 7.4px) auto 0;
+}
+
+@media (min-width: 768px) {
+  .header {
+    margin: 28px auto 0;
+  }
+}

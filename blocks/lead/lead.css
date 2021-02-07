@@ -1,0 +1,25 @@
+.lead {
+  margin: 48px auto 0;
+  max-width: 984px;
+  width: 100%;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .lead {
+    margin-top: calc(100vw/64 + 36px);
+    width: calc(100vw*160/256 + 288px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .lead {
+    width: calc(100vw*56/256 + 704px);
+  }
+}
+
+@media (min-width: 1280px) {
+  .lead {
+    margin-top: 56px;
+  }
+}

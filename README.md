@@ -5,3 +5,5 @@
 В проекте используются:
 1. HTML.
 2. CSS.
+
+Проект доступен по ссылке https://firetimeloop.github.io/russian-travel/

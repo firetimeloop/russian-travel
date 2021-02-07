@@ -4,7 +4,7 @@
   height: 62.5vw;
   max-height: 740px;
   margin-bottom: calc(100vw*0.058 + 45.43px);
-  background-image: url('../../../images/cover-trains.jpg');
+  background-image: url('../../images/cover-trains.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }

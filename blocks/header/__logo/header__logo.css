@@ -6,13 +6,19 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url('../../../images/header-logo.svg');
+    background-position: center;
     margin: 0;
     z-index: 1;
 }
 
+@media (min-width: 320px) {
+  .header__logo {
+    min-height: calc(100vw*0.022 + 34.86px);
+  }
+}
+
 @media (min-width: 768px) {
-  .place__paragraph {
-    width: 44vw;
+  .header__logo {
     min-height: 52px;
   }
 }

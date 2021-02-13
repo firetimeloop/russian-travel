@@ -11,12 +11,12 @@
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-link/_marked/header__lang-link_marked.css);
 
+@import url(../blocks/main-content/main-content.css);
+
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
-@import url(../blocks/image-block/image-block.css);
-@import url(../blocks/image-block/__image/image-block__image.css);
-@import url(../blocks/image-block/__image-svg/image-block__image-svg.css);
+@import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 
 @import url(../blocks/intro/intro.css);

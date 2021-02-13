@@ -1,0 +1,25 @@
+.lead__image {
+  width: 100%;
+  margin-top: calc(100vw*0.036 + 28.57px);
+  box-sizing: border-box;
+  max-width: 984px;
+}
+
+@media (min-width: 768px) {
+  .lead__image {
+    margin-top: 56px;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lead__image {
+    margin-top: calc(100vw*0.031 + 24px);
+  }
+}
+
+@media (min-width: 1280px) {
+  .lead__image {
+    margin-top: 64px;
+  }
+}

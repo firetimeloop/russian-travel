@@ -8,6 +8,10 @@
   width: 100%;
 }
 
+.place__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
 @media (min-width: 768px) {
   .place__paragraph {
     margin: 0;

@@ -3,13 +3,21 @@
   flex-direction: column;
   width: 100%;
   max-width: 984px;
-  margin: calc(100vw*0.058 + 45.43px) auto;
+  margin: 0;
+  margin-top: 64px;
+  padding: 0;
+}
+
+@media (min-width: 320px) {
+  .places {
+    margin-top: calc(100vw*0.058 + 45.43px);
+  }
 }
 
 @media (min-width: 768px) {
   .places {
     width: calc(100vw*0.8125 + 96px);
-    margin: 90px auto;
+    margin-top: 90px;
   }
 }
 
